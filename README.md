@@ -35,6 +35,20 @@ All the project dependencies are manage through [npmjs](https://www.npmjs.com/).
 npm install
 ```
 
+## Development server
+
+For development purposes, you have to restore the cordova state of the application. All the platforms and plugins files are not uploaded into the repo but you could download with the following command:
+
+```
+mkdir www
+cordova prepare
+```
+
+To see all the **HTML5 development** you could run the following command to see with livereload all the changes on the browser. Navigate to http://localhost:4200/.
+
+```
+ng serve
+```
 
 ## License
 
