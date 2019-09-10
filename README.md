@@ -45,7 +45,7 @@ cordova prepare
 To see all the **HTML5 development** you could run the following command to see with livereload all the changes on the browser. 
 
 ```
-Ionic serve --lab
+ionic serve --lab
 ```
 
 ## License
