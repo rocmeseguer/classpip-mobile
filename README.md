@@ -1,4 +1,4 @@
-# Classpip Administration Dashboard
+# Classpip Mobile Application
 [![Classpip Badge](https://img.shields.io/badge/classpip-dashboard-brightgreen.svg)](https://github.com/rocmeseguer/classpip-dashboard)
 [![Classpip Badge](https://img.shields.io/badge/classpip-mobile-brightgreen.svg)](https://github.com/rocmeseguer/classpip-mobile)
 [![Classpip Badge](https://img.shields.io/badge/classpip-services-brightgreen.svg)](https://github.com/rocmeseguer/classpip-services)
@@ -21,10 +21,10 @@ npm -v
 > 5.6.0
 ```
 
-Ahora no se que versión recomendamos instalar. 
+You have to install Ionic and Cordova tooling for managing the model:
 ```
-npm install -g ionic@????
-npm install -g cordova@????
+npm install -g ionic@2.2.2
+npm install -g cordova@6.4.0
 ```
 
 ## Local dependencies
