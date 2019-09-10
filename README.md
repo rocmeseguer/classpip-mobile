@@ -44,10 +44,10 @@ mkdir www
 cordova prepare
 ```
 
-To see all the **HTML5 development** you could run the following command to see with livereload all the changes on the browser. Navigate to http://localhost:4200/.
+To see all the **HTML5 development** you could run the following command to see with livereload all the changes on the browser. 
 
 ```
-ng serve
+Ionic serve --lab
 ```
 
 ## License
