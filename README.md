@@ -16,15 +16,13 @@ Make sure you have NodeJS installed. Download the installer [here](https://nodej
 
 ```
 node -v
-> v8.6.0
-npm -v
-> 5.6.0
+> v10.13.0
 ```
 
 You have to install Ionic and Cordova tooling for managing the model:
 ```
-npm install -g ionic@2.2.2
-npm install -g cordova@6.4.0
+npm install -g ionic@4.6.0
+npm install -g cordova@8.1.2
 ```
 
 ## Local dependencies
