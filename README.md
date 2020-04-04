@@ -10,14 +10,30 @@ The software architecture is composed by a mobile application for performing “
 
 ![classpip-arch](https://github.com/classpip/classpip/raw/master/images/project-architecture.png)
 
-## Global dependencies
+## NodeJS
 
-Make sure you have NodeJS installed. Download the installer [here](https://nodejs.org/dist/latest-v8.x/) or use your favorite package manager. It's best to get the 8x version of node along with the 10x version of npm. This offers the best in stability and speed for building.
+Make sure you have NodeJS installed. Download the installer or use your favorite package manager. It's best to get the 10x version of node. This offers the best in stability and speed for building.
+
+You may also need development tools to build native addons.
 
 ```
 node -v
 > v10.13.0
 ```
+
+### To build native addons on Linux (Ubuntu)
+
+```
+sudo apt-get install gcc g++ make
+```
+
+### To build native addons on Windows
+
+```
+npm install -g windows-build-tools
+```
+
+## Global dependencies
 
 You have to install Ionic and Cordova tooling for managing the model:
 ```
